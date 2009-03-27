@@ -1,0 +1,95 @@
+import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+import javax.microedition.io.*;
+
+public final class Francais
+{
+    public static String Lang[] = new String[500];
+
+    public Francais()
+    {
+        Lang[0] = "Nom de l'écran";
+        Lang[1] = "Type de connexion";
+        Lang[2] = "Fichers partagés";
+        Lang[3] = "Nom de la salle";
+        Lang[4] = "Entrer";
+        Lang[5] = "Quitter";
+        Lang[6] = "fichiers) est entré";
+        Lang[7] = "a quitté";
+        Lang[8] = "Salle renommé pour";
+        Lang[9] = "actuellement redirigé sur";
+        Lang[10] = "List de users";
+        Lang[11] = "Changer le pseudo";
+        Lang[12] = "Rejoindre la salle";
+        Lang[13] = "À propos";
+        Lang[14] = "Sorti de la salle";
+        Lang[15] = "Fermer WPCC";
+        Lang[16] = "Envoyer";
+        Lang[17] = "Appliquer";
+        Lang[18] = "Annuler";
+        Lang[19] = "Insérer les informations";
+        Lang[20] = "En ligne";
+        Lang[21] = "Occupé";
+        Lang[22] = "De retour";
+        Lang[23] = "Parti";
+        Lang[24] = "Au téléphone";
+        Lang[25] = "Parti manger";
+        Lang[26] = "Parti souper";
+        Lang[27] = "<Inscrivez votre message personnel ici qui sera affiché dans votre Whoist>";
+        Lang[28] = "Prédédent";
+        Lang[29] = "État Connexion";
+        Lang[30] = "Hors ligne";
+        Lang[31] = "Recherche d'une connexion au réseau";
+        Lang[32] = "En ligne";
+        Lang[33] = "Go";
+        Lang[34] = "Connexions";
+        Lang[35] = "Liste de salles";
+        Lang[36] = "Configurations";
+        Lang[37] = "Status";
+        Lang[38] = "Message personnel";
+        Lang[39] = "Connecter";
+        Lang[40] = "Déconnecter";
+        Lang[41] = "Aller à la liste de salles";
+        Lang[42] = "Aller à la page principale";
+        Lang[43] = "Aller au filtre de salles";
+        Lang[44] = "Actualiser la liste";
+        Lang[45] = "Actualiser";
+        Lang[46] = "Aller au réseau";
+        Lang[47] = "Envoyer un message";
+        Lang[48] = "Effacer la fenêtre";
+        Lang[49] = "Filtre";
+        Lang[50] = "Sujet";
+        Lang[51] = "Connexion automatique sur";
+        Lang[52] = "Envoyer un message quand vous entrez dans une salle";
+        Lang[53] = "Connexion automatique lors du démarrage";
+        Lang[54] = "Oui";
+        Lang[55] = "Non";
+        Lang[56] = "Afficher vos informations";
+        Lang[57] = "Afficher le nom et la version du client";
+        Lang[58] = "Rejoindre la salle automatiquement";
+        Lang[59] = "Envoyer un message à";
+        Lang[60] = "Message de";
+        Lang[61] = "Favoris";
+        Lang[62] = "Rejoindre la salle automatiquement";
+        Lang[63] = "Se logger automatiquement";
+        Lang[64] = "Ajouter salle";
+        Lang[65] = "Enlever salle";
+        Lang[66] = "Rejoindre toutes les salles";
+        Lang[67] = "Rejoindre toutes les salles";
+        Lang[68] = "Ajouter cette salle dans les favoris";
+        Lang[69] = "Ajouter cette salle dans la connexion automatique";
+        Lang[70] = "Aller à";
+        Lang[71] = "Salle";
+        Lang[72] = "Login";
+        Lang[73] = "OK";
+        Lang[74] = "Peer Cache par défaut";
+        Lang[75] = "Whois";
+        Lang[76] = "Veuillez patienter...";
+        Lang[77] = "Attente d'une réponse...";
+        Lang[78] = "Une nouvelle version est disponnible:";
+        Lang[79] = "Activer les couleurs dans les logs des salle";
+        Lang[80] = "Préférence des couleurs";
+        Lang[81] = "Fond écran foncé / Textes claires";
+        Lang[82] = "Fond écran claire / Textes foncés";
+    }
+}

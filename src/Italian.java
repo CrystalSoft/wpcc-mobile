@@ -1,0 +1,95 @@
+import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+import javax.microedition.io.*;
+
+public final class Italian
+{
+    public static String Lang[] = new String[500];
+
+    public Italian()
+    {
+        Lang[0] = "Nome Utente";
+        Lang[1] = "Tipo di connessione";
+        Lang[2] = "Condivisi";
+        Lang[3] = "Nome Canale";
+        Lang[4] = "Entra";
+        Lang[5] = "Esci";
+        Lang[6] = "file) è entrato/a";
+        Lang[7] = "è uscito/a";
+        Lang[8] = "Canale rinominato in";
+        Lang[9] = "Redirect in corso su:";
+        Lang[10] = "Lista Utenti";
+        Lang[11] = "Cambia Nick";
+        Lang[12] = "Ri-entra nel Canale";
+        Lang[13] = "About";
+        Lang[14] = "Esci dalla Chat";
+        Lang[15] = "Chiudi WPCC";
+        Lang[16] = "Invia";
+        Lang[17] = "Applica";
+        Lang[18] = "Annulla";
+        Lang[19] = "Inserisci i dati di Join";
+        Lang[20] = "In linea";
+        Lang[21] = "Occupato";
+        Lang[22] = "Torno subito";
+        Lang[23] = "Non al computer";
+        Lang[24] = "Al telefono";
+        Lang[25] = "A pranzo";
+        Lang[26] = "A cena";
+        Lang[27] = "<Inserisci qui un Messaggio Personale che potrà essere visto sul Whois o nella Lista User>";
+        Lang[28] = "Indietro";
+        Lang[29] = "Stato della connessione";
+        Lang[30] = "Disconnesso";
+        Lang[31] = "Ricerca connessioni alla rete";
+        Lang[32] = "Pronto";
+        Lang[33] = "Vai";
+        Lang[34] = "Networks";
+        Lang[35] = "Lista Canali";
+        Lang[36] = "Config.";
+        Lang[37] = "Stato";
+        Lang[38] = "Messaggio Personale";
+        Lang[39] = "Connetti";
+        Lang[40] = "Disconnetti";
+        Lang[41] = "Vai alla Lista Canali";
+        Lang[42] = "Vai alla Pagina Iniziale";
+        Lang[43] = "Vai al Filtro Canali";
+        Lang[44] = "Aggiorna Elenco";
+        Lang[45] = "Aggiorna";
+        Lang[46] = "Vai su Networks";
+        Lang[47] = "Invio messaggio";
+        Lang[48] = "Pulisci finestra";
+        Lang[49] = "Filtro";
+        Lang[50] = "Topic";
+        Lang[51] = "Ri-entra in Auto in Chat per";
+        Lang[52] = "Invia un Messaggio quando entri in Chat";
+        Lang[53] = "Connessione automatica all'avvio";
+        Lang[54] = "Sì";
+        Lang[55] = "No";
+        Lang[56] = "Mostra il tuo Stato e Messaggio personale";
+        Lang[57] = "Mostra Nome e versione del Client";
+        Lang[58] = "Visualizza i canali immediatamente appena ci si è connessi";
+        Lang[59] = "Invio messaggio a";
+        Lang[60] = "Messaggio da";
+        Lang[61] = "Canali Preferiti";
+        Lang[62] = "Canali Auto Join";
+        Lang[63] = "Canali Auto Login";
+        Lang[64] = "Aggiungi Canale";
+        Lang[65] = "Rimuovi Canale";
+        Lang[66] = "Ri-entra in tutti i Canali";
+        Lang[67] = "Entra in tutti i Canali Auto Join";
+        Lang[68] = "Aggiungi ai Canali preferiti";
+        Lang[69] = "Aggiungi ai Canali Auto Join";
+        Lang[70] = "Vai ai";
+        Lang[71] = "Canale";
+        Lang[72] = "Login";
+        Lang[73] = "OK";
+        Lang[74] = "Peer Cache di Default";
+        Lang[75] = "Chi è";
+        Lang[76] = "Attendere prego...";
+        Lang[77] = "Attendi risposta...";
+        Lang[78] = "Nuova versione disponibile! Per scaricarla, vai dal PC a questo indirizzo:";
+        Lang[79] = "Abilita il Testo MultiColorato in Chat";
+        Lang[80] = "Preferenza Colori";
+        Lang[81] = "Sfondo scuro / Testo chiaro";
+        Lang[82] = "Sfondo chiaro / Testo scuro";
+    }
+}
