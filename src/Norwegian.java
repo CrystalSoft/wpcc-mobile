@@ -1,0 +1,95 @@
+import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+import javax.microedition.io.*;
+
+public final class Norwegian
+{
+    public static String Lang[] = new String[500];
+
+    public Norwegian()
+    {
+        Lang[0] = "Brukernavn";
+        Lang[1] = "Linje";
+        Lang[2] = "Delte filer";
+        Lang[3] = "Romnavn";
+        Lang[4] = "Koble til";
+        Lang[5] = "Avslutt";
+        Lang[6] = "filer) har kommet";
+        Lang[7] = "dro";
+        Lang[8] = "Rom byttet navn til";
+        Lang[9] = "Forlyttes til";
+        Lang[10] = "Brukerliste";
+        Lang[11] = "Endre brukernavn";
+        Lang[12] = "Koble til på nytt";
+        Lang[13] = "Om";
+        Lang[14] = "Forlat rommet";
+        Lang[15] = "Steng WPCC";
+        Lang[16] = "Send";
+        Lang[17] = "Bruk";
+        Lang[18] = "Avbryt";
+        Lang[19] = "Legg til tilkoblingsinformasjon";
+        Lang[20] = "Pålogget";
+        Lang[21] = "Opptatt";
+        Lang[22] = "Straks tilbake";
+        Lang[23] = "Borte";
+        Lang[24] = "I telefon";
+        Lang[25] = "Borte for lunsj";
+        Lang[26] = "Borte for kveldsmat";
+        Lang[27] = "<Skriv din personlige beskjed som vises på whois eller Brukerlisten>";
+        Lang[28] = "Tilbake";
+        Lang[29] = "Tilkoblingsstatus";
+        Lang[30] = "Frakoblet";
+        Lang[31] = "Søker etter nettverk";
+        Lang[32] = "Pålogget";
+        Lang[33] = "Gå";
+        Lang[34] = "Nettverk";
+        Lang[35] = "Chatromliste";
+        Lang[36] = "Innstillinger";
+        Lang[37] = "Status";
+        Lang[38] = "Privat Melding";
+        Lang[39] = "Koble Til";
+        Lang[40] = "Koble Fra";
+        Lang[41] = "Vis Chatromliste";
+        Lang[42] = "Vis Hovedsiden";
+        Lang[43] = "Vis Chatromfilter";
+        Lang[44] = "Oppdater Liste";
+        Lang[45] = "Oppdater";
+        Lang[46] = "Vis Nettverk";
+        Lang[47] = "Send melding";
+        Lang[48] = "Tøm vindu";
+        Lang[49] = "Filter";
+        Lang[50] = "Topic";
+        Lang[51] = "Koble til automatisk";
+        Lang[52] = "Skriv en beskjed når du kobler til rom";
+        Lang[53] = "Automatisk tilkobling ved oppstart";
+        Lang[54] = "Ja";
+        Lang[55] = "Nei";
+        Lang[56] = "Vis din brukerstaus og personlige melding";
+        Lang[57] = "Vis programnavn og versjonnummer";
+        Lang[58] = "Hent romliste umiddelbart ved tilkobling";
+        Lang[59] = "Send melding til";
+        Lang[60] = "Melding fra";
+        Lang[61] = "Favoritter";
+        Lang[62] = "Autotilkobling av rom";
+        Lang[63] = "Autoinnlogging i rom";
+        Lang[64] = "Legg til rom";
+        Lang[65] = "Fjern rom";
+        Lang[66] = "Oppdater alle rom";
+        Lang[67] = "Koble til alle autotilkoblede rom";
+        Lang[68] = "Legg rom til favoritter";
+        Lang[69] = "Legg rom til autotilkoblede rom";
+        Lang[70] = "Gå til";
+        Lang[71] = "Rom";
+        Lang[72] = "Passord";
+        Lang[73] = "OK";
+        Lang[74] = "Standard Peer Cache";
+        Lang[75] = "Whois";
+        Lang[76] = "Vennligst vent...";
+        Lang[77] = "Venter på svar...";
+        Lang[78] = "Ny versjon tilgjenglig! For nedlasting, gå hit:";
+        Lang[79] = "Tillat MultiFarget tekst i Chatlog";
+        Lang[80] = "Fargevalg";
+        Lang[81] = "Mørk bakrunn / Lys Tekst";
+        Lang[82] = "Lys Bakgrunn / Mørk Tekst";
+    }
+}

@@ -1,0 +1,95 @@
+import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+import javax.microedition.io.*;
+
+public final class English
+{
+    public static String Lang[] = new String[500];
+
+    public English()
+    {
+        Lang[0] = "Screen Name";
+        Lang[1] = "Connection Type";
+        Lang[2] = "Shared Files";
+        Lang[3] = "Channel Name";
+        Lang[4] = "Join";
+        Lang[5] = "Exit";
+        Lang[6] = "files) has entered";
+        Lang[7] = "has left";
+        Lang[8] = "Channel renamed to";
+        Lang[9] = "Currently redirecting to";
+        Lang[10] = "User List";
+        Lang[11] = "Change Nick";
+        Lang[12] = "Re-join Channel";
+        Lang[13] = "About";
+        Lang[14] = "Exit from room";
+        Lang[15] = "Close WPCC";
+        Lang[16] = "Send";
+        Lang[17] = "Apply";
+        Lang[18] = "Cancel";
+        Lang[19] = "Insert Join information";
+        Lang[20] = "Online";
+        Lang[21] = "Busy";
+        Lang[22] = "Be Right Back";
+        Lang[23] = "Away";
+        Lang[24] = "In a call";
+        Lang[25] = "Out to Lunch";
+        Lang[26] = "Out to Supper";
+        Lang[27] = "<Type your personal message here that you'll be able to see on whois or User list>";
+        Lang[28] = "Back";
+        Lang[29] = "Connection Status";
+        Lang[30] = "Offline";
+        Lang[31] = "Finding network connection";
+        Lang[32] = "Online";
+        Lang[33] = "Go";
+        Lang[34] = "Networks";
+        Lang[35] = "Channel List";
+        Lang[36] = "Settings";
+        Lang[37] = "Status";
+        Lang[38] = "Personal Message";
+        Lang[39] = "Connect";
+        Lang[40] = "Disconnect";
+        Lang[41] = "Go to Channel List";
+        Lang[42] = "Go to Main Page";
+        Lang[43] = "Go to Channel Filter";
+        Lang[44] = "Refresh List";
+        Lang[45] = "Refresh";
+        Lang[46] = "Go to Networks";
+        Lang[47] = "Send Message";
+        Lang[48] = "Clear Window";
+        Lang[49] = "Filter";
+        Lang[50] = "Topic";
+        Lang[51] = "Auto Re-Join Channel for";
+        Lang[52] = "Send a Message when join in Chat";
+        Lang[53] = "Automatically connect on startup";
+        Lang[54] = "Yes";
+        Lang[55] = "No";
+        Lang[56] = "Show your User Status and Personal Message";
+        Lang[57] = "Show Client name and version";
+        Lang[58] = "Fetch channels immediately when connected";
+        Lang[59] = "Send Message to";
+        Lang[60] = "Message from";
+        Lang[61] = "Favorite Channels";
+        Lang[62] = "Auto Join Channels";
+        Lang[63] = "Auto Logins Channel";
+        Lang[64] = "Add Channel";
+        Lang[65] = "Remove Channel";
+        Lang[66] = "Re-join all Channels";
+        Lang[67] = "Join all Auto Join Channels";
+        Lang[68] = "Add To Favorite Channels";
+        Lang[69] = "Add Channel to Auto Join Channels";
+        Lang[70] = "Go to";
+        Lang[71] = "Channel";
+        Lang[72] = "Login";
+        Lang[73] = "OK";
+        Lang[74] = "Default Peer Cache";
+        Lang[75] = "Whois";
+        Lang[76] = "Please wait...";
+        Lang[77] = "Waiting for reply...";
+        Lang[78] = "New version available! For download, go with PC here:";
+        Lang[79] = "Enable MultiColoured Text on Chat Log";
+        Lang[80] = "Colour Preferences";
+        Lang[81] = "Dark Background / Light Text";
+        Lang[82] = "Light Background / Dark Text";
+    }
+}

@@ -1,0 +1,95 @@
+import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+import javax.microedition.io.*;
+
+public final class Spanish
+{
+    public static String Lang[] = new String[500];
+
+    public Spanish()
+    {
+        Lang[0] = "Nombre de Pantalla";
+        Lang[1] = "Tipo de Conexion";
+        Lang[2] = "Archivos Compartidos";
+        Lang[3] = "Nombre del Canal";
+        Lang[4] = "Entrar";
+        Lang[5] = "Salir";
+        Lang[6] = "archivos) ah Entrado";
+        Lang[7] = "ah Salido";
+        Lang[8] = "Canal renombrado a";
+        Lang[9] = "Actualmente redirigiendo a";
+        Lang[10] = "Lista de usuarios";
+        Lang[11] = "Cambiar Nombre";
+        Lang[12] = "Re-entrar al Canal";
+        Lang[13] = "Acerca";
+        Lang[14] = "Salir del Canal";
+        Lang[15] = "Cerrar WPCC";
+        Lang[16] = "Enviar";
+        Lang[17] = "Aplicar";
+        Lang[18] = "Cancelar";
+        Lang[19] = "Insertar Informacion para entrar";
+        Lang[20] = "En Linea";
+        Lang[21] = "Ocupado";
+        Lang[22] = "Ya regreso";
+        Lang[23] = "Lejos";
+        Lang[24] = "En una llamada";
+        Lang[25] = "Comiendo";
+        Lang[26] = "De compras";
+        Lang[27] = "<Inserte aqui un mesanje que va a ser visto en el Quien-es o en la lista de usuarios>";
+        Lang[28] = "Regrese";
+        Lang[29] = "Estado de la Conexion";
+        Lang[30] = "Desconectado";
+        Lang[31] = "Encontrando una conexion en la red";
+        Lang[32] = "En Linea";
+        Lang[33] = "Ir";
+        Lang[34] = "Redes";
+        Lang[35] = "Lista de Canales";
+        Lang[36] = "Opciones";
+        Lang[37] = "Estado";
+        Lang[38] = "Mensaje Personal";
+        Lang[39] = "Conectar";
+        Lang[40] = "Desconectar";
+        Lang[41] = "Ir al Canal Principal";
+        Lang[42] = "Ir a la Pagina Principal";
+        Lang[43] = "Filtrar Canales";
+        Lang[44] = "Refrescar la Lista";
+        Lang[45] = "Refrescar";
+        Lang[46] = "Ir a Redes";
+        Lang[47] = "Enviar Mensaje";
+        Lang[48] = "Despejar Ventana";
+        Lang[49] = "Filtro";
+        Lang[50] = "Topico";
+        Lang[51] = "Auto Re-Entrar Canal Por";
+        Lang[52] = "Enviar un mensaje cuando se entra al canal";
+        Lang[53] = "Conectar automaticamente al iniciar";
+        Lang[54] = "Si";
+        Lang[55] = "No";
+        Lang[56] = "Mostrar mi estado de usuario y Mensaje Personal";
+        Lang[57] = "Mostrar el nombre del Cliente y la Version";
+        Lang[58] = "Capturar la lista de canales inmediatamente cuando me conecte";
+        Lang[59] = "Enviar a";
+        Lang[60] = "Mensaje de";
+        Lang[61] = "Canales Favoritos";
+        Lang[62] = "Auto-Entrar a Canales";
+        Lang[63] = "Auto-Guardar Conversaciones";
+        Lang[64] = "Agregar Canal";
+        Lang[65] = "Remover Canal";
+        Lang[66] = "Re-Entrar en todos los Canales";
+        Lang[67] = "Entrar en todos los Auto-Entrar Canales";
+        Lang[68] = "Agregar a canales favoritos";
+        Lang[69] = "Agregar canal a Auto-Entrar canales";
+        Lang[70] = "Ir a";
+        Lang[71] = "Chanal";
+        Lang[72] = "Login";
+        Lang[73] = "OK";
+        Lang[74] = "Peer Cache por Defecto";
+        Lang[75] = "Quien-es";
+        Lang[76] = "Espere por favor...";
+        Lang[77] = "Esperando por respuesta...";
+        Lang[78] = "Nueva version disponible! Para descargar, ve con tu PC aqui:";
+        Lang[79] = "Habilitar Texto en Milticolores cuando guarde las conversaciones";
+        Lang[80] = "Preferencias de Colores";
+        Lang[81] = "Fondo Oscuro / Texto Claro";
+        Lang[82] = "Fondo Claro / Texto Oscuro";
+    }
+}

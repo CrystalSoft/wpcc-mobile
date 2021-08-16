@@ -1,0 +1,95 @@
+import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+import javax.microedition.io.*;
+
+public final class Dutch
+{
+    public static String Lang[] = new String[500];
+
+    public Dutch()
+    {
+        Lang[0] = "Gebruikers Naam";
+        Lang[1] = "Verbinding";
+        Lang[2] = "Bestanden";
+        Lang[3] = "Room naam";
+        Lang[4] = "Ga binnen";
+        Lang[5] = "Sluit af";
+        Lang[6] = "Bestanden) is binnen gekomen";
+        Lang[7] = "is vertrokken";
+        Lang[8] = "Room naam gewijzigd in";
+        Lang[9] = "Bezig met omleiden naar";
+        Lang[10] = "Gebruikers Lijst";
+        Lang[11] = "Wijzig Gebruikers naam";
+        Lang[12] = "Ga opnieuw binnen";
+        Lang[13] = "Informatie over";
+        Lang[14] = "Verlaat de room";
+        Lang[15] = "Sluit WPCC";
+        Lang[16] = "Verzenden";
+        Lang[17] = "Toepassen";
+        Lang[18] = "Annuleren";
+        Lang[19] = "Vul toegangs informatie in";
+        Lang[20] = "Verbonden";
+        Lang[21] = "Bezet";
+        Lang[22] = "Ben zo terug";
+        Lang[23] = "Afwezig";
+        Lang[24] = "Aan de telefoon";
+        Lang[25] = "Lunchen";
+        Lang[26] = "Eten";
+        Lang[27] = "<Type de persoonlijk boodschap die je kunt zien in de wie is of gebruikerslijst hier>";
+        Lang[28] = "Terug";
+        Lang[29] = "Verbindings Status";
+        Lang[30] = "Niet verbonden";
+        Lang[31] = "Zoekt netwerk verbinding";
+        Lang[32] = "Verbonden";
+        Lang[33] = "Voer uit";
+        Lang[34] = "Netwerken";
+        Lang[35] = "Room Lijst";
+        Lang[36] = "Instellingen";
+        Lang[37] = "Status";
+        Lang[38] = "Persoonlijke Boodschap";
+        Lang[39] = "Maak verbinding";
+        Lang[40] = "Verbreek verbinding";
+        Lang[41] = "Ga naar Room Lijst";
+        Lang[42] = "Ga naar Hoofd Pagina";
+        Lang[43] = "Ga naar Room Filter";
+        Lang[44] = "Ververs Lijst";
+        Lang[45] = "Ververs";
+        Lang[46] = "Ga naar Netwerken";
+        Lang[47] = "Verzendt Bericht";
+        Lang[48] = "Herstel Window";
+        Lang[49] = "Filter";
+        Lang[50] = "Topic";
+        Lang[51] = "Auto Her-verbindt met Room";
+        Lang[52] = "Stuur Bericht wanner je de Room binnengaat";
+        Lang[53] = "Verbindt automatisch bij het opstarten";
+        Lang[54] = "Ja";
+        Lang[55] = "Nee";
+        Lang[56] = "Toon je Gebruikers Status en Persoonlijke Boodschap";
+        Lang[57] = "Toon Client naam en versie";
+        Lang[58] = "Haal Room Lijst direct na verbinden";
+        Lang[59] = "Stuur Bericht Naar";
+        Lang[60] = "Bericht van";
+        Lang[61] = "Favoriete Rooms";
+        Lang[62] = "Ga Automatisch Room in";
+        Lang[63] = "Automatische Room Login";
+        Lang[64] = "Voeg Room Toe";
+        Lang[65] = "Verwijder Room";
+        Lang[66] = "Ga opnieuw alle Rooms in";
+        Lang[67] = "Ga alle Automatische Rooms in";
+        Lang[68] = "Voeg toe aan Favoriete Rooms";
+        Lang[69] = "Voeg Room toe aan Automatische Rooms";
+        Lang[70] = "Ga Naar";
+        Lang[71] = "Room";
+        Lang[72] = "Login";
+        Lang[73] = "OK";
+        Lang[74] = "Standaard Peer Cache";
+        Lang[75] = "Wie is";
+        Lang[76] = "Geduld AUB...";
+        Lang[77] = "Wacht op antwoord...";
+        Lang[78] = "Niewe versie beschikbaar! Download hier:";
+        Lang[79] = "Enable MultiColoured Text on Chat Log";
+        Lang[80] = "Voorkeur Kleuren";
+        Lang[81] = "Donkere Achtergrond / Lichte tekst";
+        Lang[82] = "Lichte Achtergrond / Donkere Tekst";
+    }
+}
